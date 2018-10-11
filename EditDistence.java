@@ -6,13 +6,14 @@ public class EditDistence {
 	private int insertWeight = 1;
 	private int deleteWeight = 1;
 	
-	
+	//setting the edit operation weights,default setting(insert:1, delete:1, replace:1)
 	public EditDistence(int replace, int insert, int delete){
 		this.replaceWeight = replace;
 		this.insertWeight = insert;
 		this.deleteWeight = delete;
 	}
 	
+	//default construct method:use default weights(1,1,1)
 	public EditDistence(){
 		
 	}
